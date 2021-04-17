@@ -1,9 +1,16 @@
 /*font import*/
 @font-face {
-    font-family: Offside;
-    src: url(fonts/Offside-Regular.ttf);
-  }
+  font-family: Offside;
+  src: url(fonts/Offside-Regular.ttf);
+}
+@font-face{
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf)
+}
 
+html{
+  scroll-behavior:smooth;
+}
 
 body{
     position: absolute;
@@ -74,7 +81,7 @@ text-decoration: none;
     font-family: Offside;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 72px;
     line-height: 91px;
     text-align: center;
     
@@ -124,6 +131,9 @@ position:relative;
       float: middle;
       display: block;
     }
+    #whoami{
+      display:none;
+    }
     #arrow{
       width: 120px;
       height:130px;
@@ -154,3 +164,43 @@ position:relative;
     padding: 20px;
 }
 
+#arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+#arrow {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+#aboutt{
+  position:absolute;
+  top:100%;
+  padding:50px;
+  display:-moz-inline-box;
+  color:rgb(5, 211, 5);
+  font-size:30px;
+  font-family:Ubuntu;
+}
+#heading{
+  font-size:48px;
+  position:relative;
+  margin:0 auto;
+  text-align:center;
+  left:20px;
+  right:20px;
+}
