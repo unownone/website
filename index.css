@@ -29,7 +29,7 @@ top: 10%;
 font-family: Offside;
 font-style: normal;
 font-weight: normal;
-font-size: 4vw;
+font-size: 42px;
 line-height: 91px;
 text-align: center;
 color: #FFFFFF;
@@ -41,7 +41,7 @@ display=block;
 font-family: Offside;
 font-style: normal;
 font-weight: normal;
-font-size: 1.8vw;
+font-size: 22px;
 line-height: 28px;
 text-align: center;
 color: #FFFFFF;
@@ -56,7 +56,7 @@ text-decoration: none;
 .topnav .header-right a:hover {
     animation:ease-in-out;
     animation-duration:100ms;
-    font-size: 2.4vw;
+    font-size: 28px;
     color:black;
     background: rgba(255, 255, 255, 0.41);
     border: 2px solid #FFFFFF;
@@ -64,7 +64,7 @@ text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
-.IKR{
+#IKR{
     position: absolute;
     left: 0%;
     right: 0%;
@@ -74,7 +74,7 @@ text-decoration: none;
     font-family: Offside;
     font-style: normal;
     font-weight: normal;
-    font-size: 6vw;
+    font-size: 50px;
     line-height: 91px;
     text-align: center;
     
@@ -87,17 +87,59 @@ text-decoration: none;
     position: absolute;
 width: 5%;
 height: 8%;
-left: 47%;
+left: 40%;
+right:40%;
 top: 90%;
 }
-#whoami{
-position:absolute;
-top:85%;
-left:44.5%;
+#whoam{
+    position:absolute;
+    top:85%;
+right:20%;
+left:20%;
     font-family: Offside;
 font-style: normal;
 font-weight: normal;
-font-size: 2vw;
+font-size: 28px;
 line-height: 30px;
+padding-bottom:20px;
 text-align: center;
+}
+#whoami{
+position:relative;
+
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    #arrow{
+        width:15%;
+        height:24%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.grid-container{
+    display:inline-grid;
+    grid-row-gap:5px;
+}
+.grid-item{
+    padding: 20px;
 }
