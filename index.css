@@ -84,18 +84,15 @@ text-decoration: none;
     backdrop-filter: blur(4px);
 }
 #arrow{
-    position: absolute;
-width: 5%;
-height: 8%;
-left: 40%;
-right:40%;
-top: 90%;
+position: relative;
+padding:35px;
+margin:0 auto;
 }
 #whoam{
     position:absolute;
     top:85%;
-right:20%;
-left:20%;
+right:30%;
+left:35%;
     font-family: Offside;
 font-style: normal;
 font-weight: normal;
@@ -104,28 +101,41 @@ line-height: 30px;
 padding-bottom:20px;
 text-align: center;
 }
+#arr{
+  position:absolute;
+  top:85%;
+right:30%;
+left:35%;
+  font-family: Offside;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 30px;
+padding-top:20px;
+text-align: center;
+}
 #whoami{
 position:relative;
-
 }
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
+    .topnav a.Name {
+      float: middle;
       display: block;
     }
     #arrow{
-        width:15%;
-        height:24%;
+      width: 120px;
+      height:130px;
+      padding-top:25px;
     }
   }
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
+  .topnav.responsive a.Name {
     position: absolute;
-    right: 0;
+    right: 50%;
     top: 0;
   }
 
@@ -143,3 +153,4 @@ position:relative;
 .grid-item{
     padding: 20px;
 }
+
