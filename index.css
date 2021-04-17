@@ -1,0 +1,92 @@
+/*font import*/
+@font-face {
+    font-family: Offside;
+    src: url(fonts/Offside-Regular.ttf);
+  }
+
+
+body{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: #2C2929;
+}
+
+.topnav{
+    position: absolute;
+width: 100%;
+height: 15%;
+background: rgba(0, 0, 0, 0.6);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 10px 10px;
+}
+.topnav .Name{
+    position: absolute;
+left: 0.94%;
+right: 82.9%;
+top: 10%;
+
+font-family: Offside;
+font-style: normal;
+font-weight: normal;
+font-size: 4vw;
+line-height: 91px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+.topnav .header-right a{
+float: right;
+display=block;
+font-family: Offside;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+text-align=center;
+padding:14px 16px;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-decoration: none;
+
+}
+
+.topnav .header-right a:hover {
+    animation:ease-in-out;
+    animation-duration:100ms;
+    font-size: 28px;
+    color:black;
+    background: rgba(255, 255, 255, 0.41);
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.IKR{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 030%;
+    bottom: 0%;
+    
+    font-family: Offside;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 91px;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+#arrow{
+    position: absolute;
+width: 59.5px;
+height: 27.5px;
+left: 47%;
+top: 90%;
+}
